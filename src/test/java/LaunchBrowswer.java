@@ -34,7 +34,7 @@ FileInputStream file = new FileInputStream("C:\\Users\\kisho\\Downloads\\Serenit
        Thread.sleep(5000);
         driver.findElement(By.cssSelector("input[name='loginfmt'")).sendKeys(emailID);
         driver.findElement(By.cssSelector("input[type='submit'")).click();
-// Tetsin
+
         driver.findElement(By.cssSelector("input[name='passwd'")).sendKeys(password);
         driver.findElement(By.cssSelector("input[type='submit'")).click();
     }
